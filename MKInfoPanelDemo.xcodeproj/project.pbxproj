@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB54DCA41365ADD9004B54CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB54DCA31365ADD9004B54CF /* UIKit.framework */; };
+		AB54DCA61365ADD9004B54CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB54DCA51365ADD9004B54CF /* Foundation.framework */; };
+		AB54DCA81365ADD9004B54CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB54DCA71365ADD9004B54CF /* CoreGraphics.framework */; };
+		AB54DCAE1365ADD9004B54CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB54DCAC1365ADD9004B54CF /* InfoPlist.strings */; };
+		AB54DCB11365ADD9004B54CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB54DCB01365ADD9004B54CF /* main.m */; };
+		AB54DCB41365ADD9004B54CF /* MKInfoPanelDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB54DCB31365ADD9004B54CF /* MKInfoPanelDemoAppDelegate.m */; };
+		AB54DCB71365ADD9004B54CF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB54DCB51365ADD9004B54CF /* MainWindow.xib */; };
+		AB54DCBA1365ADD9004B54CF /* MKInfoPanelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB54DCB91365ADD9004B54CF /* MKInfoPanelDemoViewController.m */; };
+		AB54DCBD1365ADD9004B54CF /* MKInfoPanelDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB54DCBB1365ADD9004B54CF /* MKInfoPanelDemoViewController.xib */; };
+		AB54DCC91365AEDA004B54CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB54DCC81365AEDA004B54CF /* QuartzCore.framework */; };
+		AB54DCEC1365BA6A004B54CF /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = AB54DCE11365BA6A004B54CF /* Blue.png */; };
+		AB54DCED1365BA6A004B54CF /* Blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB54DCE21365BA6A004B54CF /* Blue@2x.png */; };
+		AB54DCEE1365BA6A004B54CF /* MKInfoPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB54DCE41365BA6A004B54CF /* MKInfoPanel.m */; };
+		AB54DCEF1365BA6A004B54CF /* MKInfoPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB54DCE51365BA6A004B54CF /* MKInfoPanel.xib */; };
+		AB54DCF01365BA6A004B54CF /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = AB54DCE61365BA6A004B54CF /* Red.png */; };
+		AB54DCF11365BA6A004B54CF /* Red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB54DCE71365BA6A004B54CF /* Red@2x.png */; };
+		AB54DCF21365BA6A004B54CF /* Tick.png in Resources */ = {isa = PBXBuildFile; fileRef = AB54DCE81365BA6A004B54CF /* Tick.png */; };
+		AB54DCF31365BA6A004B54CF /* Tick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB54DCE91365BA6A004B54CF /* Tick@2x.png */; };
+		AB54DCF41365BA6A004B54CF /* Warning.png in Resources */ = {isa = PBXBuildFile; fileRef = AB54DCEA1365BA6A004B54CF /* Warning.png */; };
+		AB54DCF51365BA6A004B54CF /* Warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB54DCEB1365BA6A004B54CF /* Warning@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB54DC9F1365ADD9004B54CF /* MKInfoPanelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKInfoPanelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB54DCA31365ADD9004B54CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB54DCA51365ADD9004B54CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB54DCA71365ADD9004B54CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB54DCAB1365ADD9004B54CF /* MKInfoPanelDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKInfoPanelDemo-Info.plist"; sourceTree = "<group>"; };
+		AB54DCAD1365ADD9004B54CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB54DCAF1365ADD9004B54CF /* MKInfoPanelDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKInfoPanelDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AB54DCB01365ADD9004B54CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB54DCB21365ADD9004B54CF /* MKInfoPanelDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKInfoPanelDemoAppDelegate.h; sourceTree = "<group>"; };
+		AB54DCB31365ADD9004B54CF /* MKInfoPanelDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKInfoPanelDemoAppDelegate.m; sourceTree = "<group>"; };
+		AB54DCB61365ADD9004B54CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AB54DCB81365ADD9004B54CF /* MKInfoPanelDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKInfoPanelDemoViewController.h; sourceTree = "<group>"; };
+		AB54DCB91365ADD9004B54CF /* MKInfoPanelDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKInfoPanelDemoViewController.m; sourceTree = "<group>"; };
+		AB54DCBC1365ADD9004B54CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MKInfoPanelDemoViewController.xib; sourceTree = "<group>"; };
+		AB54DCC81365AEDA004B54CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AB54DCE11365BA6A004B54CF /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		AB54DCE21365BA6A004B54CF /* Blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue@2x.png"; sourceTree = "<group>"; };
+		AB54DCE31365BA6A004B54CF /* MKInfoPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKInfoPanel.h; sourceTree = "<group>"; };
+		AB54DCE41365BA6A004B54CF /* MKInfoPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKInfoPanel.m; sourceTree = "<group>"; };
+		AB54DCE51365BA6A004B54CF /* MKInfoPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKInfoPanel.xib; sourceTree = "<group>"; };
+		AB54DCE61365BA6A004B54CF /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
+		AB54DCE71365BA6A004B54CF /* Red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red@2x.png"; sourceTree = "<group>"; };
+		AB54DCE81365BA6A004B54CF /* Tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tick.png; sourceTree = "<group>"; };
+		AB54DCE91365BA6A004B54CF /* Tick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tick@2x.png"; sourceTree = "<group>"; };
+		AB54DCEA1365BA6A004B54CF /* Warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Warning.png; sourceTree = "<group>"; };
+		AB54DCEB1365BA6A004B54CF /* Warning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Warning@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB54DC9C1365ADD9004B54CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB54DCC91365AEDA004B54CF /* QuartzCore.framework in Frameworks */,
+				AB54DCA41365ADD9004B54CF /* UIKit.framework in Frameworks */,
+				AB54DCA61365ADD9004B54CF /* Foundation.framework in Frameworks */,
+				AB54DCA81365ADD9004B54CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB54DC941365ADD9004B54CF = {
+			isa = PBXGroup;
+			children = (
+				AB54DCE01365BA6A004B54CF /* MKInfoPanel */,
+				AB54DCA91365ADD9004B54CF /* MKInfoPanelDemo */,
+				AB54DCA21365ADD9004B54CF /* Frameworks */,
+				AB54DCA01365ADD9004B54CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB54DCA01365ADD9004B54CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB54DC9F1365ADD9004B54CF /* MKInfoPanelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB54DCA21365ADD9004B54CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB54DCC81365AEDA004B54CF /* QuartzCore.framework */,
+				AB54DCA31365ADD9004B54CF /* UIKit.framework */,
+				AB54DCA51365ADD9004B54CF /* Foundation.framework */,
+				AB54DCA71365ADD9004B54CF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB54DCA91365ADD9004B54CF /* MKInfoPanelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AB54DCB21365ADD9004B54CF /* MKInfoPanelDemoAppDelegate.h */,
+				AB54DCB31365ADD9004B54CF /* MKInfoPanelDemoAppDelegate.m */,
+				AB54DCB51365ADD9004B54CF /* MainWindow.xib */,
+				AB54DCB81365ADD9004B54CF /* MKInfoPanelDemoViewController.h */,
+				AB54DCB91365ADD9004B54CF /* MKInfoPanelDemoViewController.m */,
+				AB54DCBB1365ADD9004B54CF /* MKInfoPanelDemoViewController.xib */,
+				AB54DCAA1365ADD9004B54CF /* Supporting Files */,
+			);
+			path = MKInfoPanelDemo;
+			sourceTree = "<group>";
+		};
+		AB54DCAA1365ADD9004B54CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB54DCAB1365ADD9004B54CF /* MKInfoPanelDemo-Info.plist */,
+				AB54DCAC1365ADD9004B54CF /* InfoPlist.strings */,
+				AB54DCAF1365ADD9004B54CF /* MKInfoPanelDemo-Prefix.pch */,
+				AB54DCB01365ADD9004B54CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB54DCE01365BA6A004B54CF /* MKInfoPanel */ = {
+			isa = PBXGroup;
+			children = (
+				AB54DCE31365BA6A004B54CF /* MKInfoPanel.h */,
+				AB54DCE41365BA6A004B54CF /* MKInfoPanel.m */,
+				AB54DCE51365BA6A004B54CF /* MKInfoPanel.xib */,
+				AB54DCE11365BA6A004B54CF /* Blue.png */,
+				AB54DCE21365BA6A004B54CF /* Blue@2x.png */,
+				AB54DCE61365BA6A004B54CF /* Red.png */,
+				AB54DCE71365BA6A004B54CF /* Red@2x.png */,
+				AB54DCE81365BA6A004B54CF /* Tick.png */,
+				AB54DCE91365BA6A004B54CF /* Tick@2x.png */,
+				AB54DCEA1365BA6A004B54CF /* Warning.png */,
+				AB54DCEB1365BA6A004B54CF /* Warning@2x.png */,
+			);
+			name = MKInfoPanel;
+			path = MKInfoBundle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB54DC9E1365ADD9004B54CF /* MKInfoPanelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB54DCC01365ADD9004B54CF /* Build configuration list for PBXNativeTarget "MKInfoPanelDemo" */;
+			buildPhases = (
+				AB54DC9B1365ADD9004B54CF /* Sources */,
+				AB54DC9C1365ADD9004B54CF /* Frameworks */,
+				AB54DC9D1365ADD9004B54CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKInfoPanelDemo;
+			productName = MKInfoPanelDemo;
+			productReference = AB54DC9F1365ADD9004B54CF /* MKInfoPanelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB54DC961365ADD9004B54CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Steinlogic;
+			};
+			buildConfigurationList = AB54DC991365ADD9004B54CF /* Build configuration list for PBXProject "MKInfoPanelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB54DC941365ADD9004B54CF;
+			productRefGroup = AB54DCA01365ADD9004B54CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB54DC9E1365ADD9004B54CF /* MKInfoPanelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB54DC9D1365ADD9004B54CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB54DCAE1365ADD9004B54CF /* InfoPlist.strings in Resources */,
+				AB54DCB71365ADD9004B54CF /* MainWindow.xib in Resources */,
+				AB54DCBD1365ADD9004B54CF /* MKInfoPanelDemoViewController.xib in Resources */,
+				AB54DCEC1365BA6A004B54CF /* Blue.png in Resources */,
+				AB54DCED1365BA6A004B54CF /* Blue@2x.png in Resources */,
+				AB54DCEF1365BA6A004B54CF /* MKInfoPanel.xib in Resources */,
+				AB54DCF01365BA6A004B54CF /* Red.png in Resources */,
+				AB54DCF11365BA6A004B54CF /* Red@2x.png in Resources */,
+				AB54DCF21365BA6A004B54CF /* Tick.png in Resources */,
+				AB54DCF31365BA6A004B54CF /* Tick@2x.png in Resources */,
+				AB54DCF41365BA6A004B54CF /* Warning.png in Resources */,
+				AB54DCF51365BA6A004B54CF /* Warning@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB54DC9B1365ADD9004B54CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB54DCB11365ADD9004B54CF /* main.m in Sources */,
+				AB54DCB41365ADD9004B54CF /* MKInfoPanelDemoAppDelegate.m in Sources */,
+				AB54DCBA1365ADD9004B54CF /* MKInfoPanelDemoViewController.m in Sources */,
+				AB54DCEE1365BA6A004B54CF /* MKInfoPanel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB54DCAC1365ADD9004B54CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB54DCAD1365ADD9004B54CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB54DCB51365ADD9004B54CF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB54DCB61365ADD9004B54CF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AB54DCBB1365ADD9004B54CF /* MKInfoPanelDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB54DCBC1365ADD9004B54CF /* en */,
+			);
+			name = MKInfoPanelDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB54DCBE1365ADD9004B54CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB54DCBF1365ADD9004B54CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AB54DCC11365ADD9004B54CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKInfoPanelDemo/MKInfoPanelDemo-Prefix.pch";
+				INFOPLIST_FILE = "MKInfoPanelDemo/MKInfoPanelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB54DCC21365ADD9004B54CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKInfoPanelDemo/MKInfoPanelDemo-Prefix.pch";
+				INFOPLIST_FILE = "MKInfoPanelDemo/MKInfoPanelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB54DC991365ADD9004B54CF /* Build configuration list for PBXProject "MKInfoPanelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB54DCBE1365ADD9004B54CF /* Debug */,
+				AB54DCBF1365ADD9004B54CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB54DCC01365ADD9004B54CF /* Build configuration list for PBXNativeTarget "MKInfoPanelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB54DCC11365ADD9004B54CF /* Debug */,
+				AB54DCC21365ADD9004B54CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB54DC961365ADD9004B54CF /* Project object */;
+}
