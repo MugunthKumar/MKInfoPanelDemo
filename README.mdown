@@ -1,1 +1,15 @@
-Instructions on how to use is on my blog, <a href="http://blog.mugunthkumar.com/coding/ios-tutorial-tweetbot-like-alertpanels"> here</a>
+
+###How to use
+
+	 [MKInfoPanel showPanelInView:self.view
+                            type:MKInfoPanelTypeError
+                           title:@"Network Failure!"
+                        subtitle:@"Check your internet connection and try again later!"
+                       hideAfter:2];
+
+###More Info
+Instructions on how to use is on my blog, <a href="http://blog.mugunthkumar.com/coding/ios-code-tweetbot-like-alertpanels/"> here</a>
+
+###Licensing
+The code is licensed under zLib license. That means, in a nut shell, you can do whatever you want, commercial/non-commercial without mis-attributing the source/original author.</a>
+
