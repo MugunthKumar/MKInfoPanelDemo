@@ -56,5 +56,6 @@ typedef enum {
 + (MKInfoPanel *)showPanelInWindow:(UIWindow*)window type:(MKInfoPanelType)type title:(NSString *)title subtitle:(NSString *)subtitle hideAfter:(NSTimeInterval)interval;
 
 - (void)hidePanel;
++(BOOL)hideAllPanelsUnderView:(UIView*)view;
 
 @end
