@@ -164,6 +164,21 @@
     [self performSelector:@selector(removeFromSuperview) withObject:nil afterDelay:0.25];
 }
 
+// Hides all panels under a view, returns success
++(BOOL)hideAllPanelsUnderView:(UIView*)view
+{
+    BOOL flag = NO;
+    for (UIView *subView in view.subviews) {
+        if ([subView isKindOfClass:[MKInfoPanel class]]) {
+            MKInfoPanel* panel = (MKInfoPanel*)subView;
+            [panel hidePanel];
+            flag = YES;
+        }
+    }
+    
+    return flag;
+}
+
 ////////////////////////////////////////////////////////////////////////
 #pragma mark -
 #pragma mark Touch Recognition
