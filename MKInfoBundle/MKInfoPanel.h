@@ -6,6 +6,7 @@
 //  Copyright 2011 Steinlogic. All rights reserved.
 //  Permission granted to do anything, commercial/non-commercial with this file apart from removing the line/URL above
 //  Read my blog post at http://mk.sg/8e on how to use this code
+//  Compatible with ARC by Reber Eric
 
 //  As a side note on using this code, you might consider giving some credit to me by
 //	1) linking my website from your app's website 
@@ -25,21 +26,7 @@ typedef enum {
     MKInfoPanelTypeError
 } MKInfoPanelType;
 
-@interface MKInfoPanel : UIView {
-    
-    UILabel *_titleLabel;
-    UILabel *_detailLabel;
-    
-    UIImageView *_thumbImage;
-    UIImageView *_backgroundGradient;
-    
-    SEL _onTouched;
-    
-    id _delegate;
-    SEL _onFinished;
-    
-    MKInfoPanelType type_;
-}
+@interface MKInfoPanel : UIView 
 
 @property (nonatomic, assign) IBOutlet UILabel *titleLabel;
 @property (nonatomic, assign) IBOutlet UILabel *detailLabel;
