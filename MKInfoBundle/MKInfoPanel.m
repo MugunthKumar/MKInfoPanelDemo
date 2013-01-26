@@ -6,6 +6,7 @@
 //  Copyright 2011 Steinlogic. All rights reserved.
 //  Permission granted to do anything, commercial/non-commercial with this file apart from removing the line/URL above
 //  Read my blog post at http://mk.sg/8e on how to use this code
+//  Compatible with ARC by Reber Eric
 
 //  As a side note on using this code, you might consider giving some credit to me by
 //	1) linking my website from your app's website 
@@ -67,9 +68,8 @@
 }
 
 - (void)dealloc {
-    [_delegate performSelector:_onFinished];
+   objc_msgSend(_delegate, _onFinished);
     
-    [super dealloc];
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -185,7 +185,7 @@
 ////////////////////////////////////////////////////////////////////////
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    [self performSelector:_onTouched];
+     objc_msgSend(self, _onTouched);
 }
 
 ////////////////////////////////////////////////////////////////////////
