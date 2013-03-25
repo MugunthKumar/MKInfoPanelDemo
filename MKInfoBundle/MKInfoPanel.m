@@ -20,7 +20,7 @@
 
 #import "MKInfoPanel.h"
 #import <QuartzCore/QuartzCore.h>
-
+#import <objc/message.h>
 // Private Methods
 
 @interface MKInfoPanel ()
