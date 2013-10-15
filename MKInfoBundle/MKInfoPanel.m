@@ -107,7 +107,7 @@
 +(MKInfoPanel *)showPanelInView:(UIView *)view type:(MKInfoPanelType)type title:(NSString *)title subtitle:(NSString *)subtitle hideAfter:(NSTimeInterval)interval {    
     MKInfoPanel *panel = [MKInfoPanel infoPanel];
     CGFloat panelHeight = 50;   // panel height when no subtitle set
-    
+
     panel.type = type;
     panel.titleLabel.text = title;
     
@@ -122,7 +122,24 @@
         panel.thumbImage.frame = CGRectMake(15, 5, 35, 35);
         panel.titleLabel.frame = CGRectMake(57, 12, 240, 21);
     }
-    
+
+	if (NSClassFromString(@"UIMotionEffect")) {
+		panelHeight += 20.0;
+
+		CGRect thumbImageFrame = panel.thumbImage.frame;
+		thumbImageFrame.origin.y += 20.0;
+        panel.thumbImage.frame = thumbImageFrame;
+
+		CGRect titleLabelFrame = panel.titleLabel.frame;
+		titleLabelFrame.origin.y += 20.0;
+        panel.titleLabel.frame = titleLabelFrame;
+
+		CGRect detailLabelFrame = panel.detailLabel.frame;
+		detailLabelFrame.origin.y += 20.0;
+        panel.detailLabel.frame = detailLabelFrame;
+
+	}
+
     // update frame of panel
     panel.frame = CGRectMake(0, 0, view.bounds.size.width, panelHeight);
     [view addSubview:panel];
